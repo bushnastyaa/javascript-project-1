@@ -1,6 +1,5 @@
 import startGame from '../index.js';
-
-const generateRandomNum = (max) => Math.floor(Math.random() * max);
+import generateRandomNum from '../getRandomNum.js';
 
 const calculate = (operand1, operand2, operator) => {
   switch (operator) {

@@ -1,6 +1,5 @@
 import startGame from '../index.js';
-
-const generateRandomNum = (max) => Math.floor(Math.random() * max);
+import generateRandomNum from '../getRandomNum.js';
 
 const isEvenNum = (num) => num % 2 === 0;
 
