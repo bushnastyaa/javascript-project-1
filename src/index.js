@@ -22,13 +22,13 @@ const startGame = (rules, getCorrectAnswer) => {
       attempt = 0;
       win = false;
     }
-  };
+  }
 
   if (win) {
     console.log(`Congratulations, ${userName}!`);
   } else {
     console.log(`Let's try again, ${userName}!`);
-  };
+  }
 };
 
 export default startGame;
